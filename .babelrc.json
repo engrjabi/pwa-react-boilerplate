@@ -1,0 +1,16 @@
+{
+  "presets": ["react-app"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."],
+        "alias": {
+          "@src": ["./src"],
+          "@ducks": ["./src/ducks"],
+          "@images": ["./src/assets/images"]
+        }
+      }
+    ]
+  ]
+}
