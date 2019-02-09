@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@src/*": ["*"],
+      "@ducks/*": ["ducks/*"],
+      "@images/*": ["assets/images/*"]
+    }
+  }
+}

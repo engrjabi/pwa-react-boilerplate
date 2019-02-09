@@ -19,15 +19,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
-    "baseUrl": "src",
-    "paths": {
-      "~/*": ["./*"],
-      "@ducks/*": ["ducks/*"],
-      "@images/*": ["assets/images/*"]
-    }
+    "jsx": "preserve"
   },
   "include": [
     "src"
-  ]
+  ],
+  "extends": "./tsconfig.paths.json"
 }
