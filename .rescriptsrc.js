@@ -16,10 +16,4 @@ module.exports = [
 			],
 		},
 	],
-	[
-		'use-tslint-config',
-		{
-			extends: ['tslint:latest', 'tslint-config-prettier']
-		},
-	],
 ];
