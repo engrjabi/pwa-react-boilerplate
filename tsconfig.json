@@ -19,7 +19,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["./*"],
+      "@ducks/*": ["ducks/*"],
+      "@images/*": ["assets/images/*"]
+    }
   },
   "include": [
     "src"
