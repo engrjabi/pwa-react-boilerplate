@@ -16,7 +16,8 @@
     "start": "rescripts start",
     "build": "rescripts build",
     "test": "rescripts test",
-    "eject": "rescripts eject"
+    "eject": "rescripts eject",
+    "lint:write": "tslint --fix \"./src/**/*.{ts,tsx}\""
   },
   "eslintConfig": {
     "extends": "react-app"
