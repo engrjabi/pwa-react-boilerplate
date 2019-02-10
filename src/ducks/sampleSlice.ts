@@ -25,7 +25,6 @@ const initState = {
 // REDUCERS
 const reducersMap = {
   downPopulation: (state: IInitState, action: IActions) => {
-    console.log("action", action);
     return {
       ...state,
       currentPopulation: state.currentPopulation - (action.payload || 1)
