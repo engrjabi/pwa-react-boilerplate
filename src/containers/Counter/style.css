@@ -1,0 +1,20 @@
+.counter {
+    color: white;
+    z-index: 999;
+    padding: 10px;
+    font-size: calc(7px + 2vmin);
+    line-height: 1.5;
+}
+
+.counter__button--up, .counter__button--down {
+    outline: 0;
+    margin: 10px;
+    background-color: #4ED8FE;
+    color: #2C2E37;
+    border: 0;
+    padding: 5px 10px;
+    width: 60px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
