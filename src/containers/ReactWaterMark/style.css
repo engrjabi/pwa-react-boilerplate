@@ -1,0 +1,26 @@
+.water-mark-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.water-mark-header__link {
+    color: #61dafb;
+}
+
+.water-mark-header__logo {
+    animation: spin infinite 20s linear;
+    height: 40vmin;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
