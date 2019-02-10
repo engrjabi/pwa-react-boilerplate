@@ -11,16 +11,18 @@
     color: #61dafb;
 }
 
-.water-mark-header__logo {
-    animation: spin infinite 20s linear;
+.water-mark-header__logo-wrapper {
     height: 40vmin;
+    width: 100%;
 }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.water-mark-header__logo {
+    height: 30px;
+    transition: all 1.95s cubic-bezier(.41, -0.53, .2, 1.95);
+}
+
+.water-mark-header__text {
+    white-space: pre-wrap; /* css-3 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    word-break: break-all;
 }
