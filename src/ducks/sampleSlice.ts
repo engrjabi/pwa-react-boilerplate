@@ -1,9 +1,9 @@
-import { ReducerState } from "react";
-import { createSlice } from "redux-starter-kit";
 import {
   getSpecificStateKeyFactory,
   ISliceObject
-} from "../utils/selectorHelper";
+} from "@utils/selectorHelper";
+import { ReducerState } from "react";
+import { createSlice } from "redux-starter-kit";
 
 // SLICE = ACTIONS + REDUCER + SELECTORS
 

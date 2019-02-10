@@ -4,7 +4,8 @@
     "paths": {
       "@src/*": ["*"],
       "@ducks/*": ["ducks/*"],
-      "@images/*": ["assets/images/*"]
+      "@images/*": ["assets/images/*"],
+      "@utils/*": ["utils/*"]
     }
   }
 }
