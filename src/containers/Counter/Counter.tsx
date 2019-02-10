@@ -19,6 +19,7 @@ const Counter: React.FC<IConnectedState & IConnectedActions> = ({
 }) => {
   const upAction = () => upPopulation();
   const downAction = () => downPopulation();
+  const isPopulationLessThanZero = currentPopulation <= 0;
 
   return (
     <div className="counter">
@@ -30,7 +31,13 @@ const Counter: React.FC<IConnectedState & IConnectedActions> = ({
       <button className="counter__button--up" onClick={upAction}>
         Up
       </button>
-      <button className="counter__button--down" onClick={downAction}>
+      <button
+        className={`counter__button--down ${
+          isPopulationLessThanZero ? "disabled" : ""
+        }`}
+        onClick={downAction}
+        disabled={isPopulationLessThanZero}
+      >
         Down
       </button>
     </div>
