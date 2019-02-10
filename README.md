@@ -1,14 +1,25 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Progressive Web App React Boilerplate
+## RoadMap
 
-The boilerplate contains the following tech stack
+#### This boilerplate is still a work in progress
 
-- React
-- Rescripts
-- Typescript
-- Tslint
-- Prettier
+Below are the things needed to be integrated before the first version can be usable
+
+**Todos**
+- :heavy_check_mark: Redux integration with minimal boilerplate
+- Handling async actions
+- :heavy_check_mark: While still using CRA allow custom eslint, tslint, and babel custom configs
+- :heavy_check_mark: Allow alias on both tsconfig and webpack
+- Typescript templates for Functional, Class, Connected Components
+- React router with default code splitting on each route
+- Image optimizer via npm script
+- Default linting and prettifier on commit and npm run script
+- Default local tunnel via npm run script to test site on actual mobile device
+- Default navbar layout components for mobile device
+- Default login basic route
+- Default sticky footer
+- Documentation
 
 Default npm commands are same as the defaults on create react app
 
