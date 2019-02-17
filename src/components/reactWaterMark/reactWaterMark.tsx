@@ -1,10 +1,10 @@
 import { getCurrentPopulation } from "@ducks/sampleSlice";
-import logo from "@images/logo.svg";
 import _forEach from "lodash/forEach";
 import _random from "lodash/random";
 import _times from "lodash/times";
 import React, { Component, ReducerState } from "react";
 import { connect } from "react-redux";
+import logo from "../../assets/images/logo.svg";
 import "./style.css";
 
 export interface IConnectedState {

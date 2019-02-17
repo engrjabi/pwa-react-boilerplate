@@ -12,7 +12,7 @@ export interface IConnectedActions {
   upPopulation: () => void;
 }
 
-const Counter: React.FC<IConnectedState & IConnectedActions> = ({
+const CounterPopulation: React.FC<IConnectedState & IConnectedActions> = ({
   currentPopulation,
   downPopulation,
   upPopulation
@@ -56,4 +56,4 @@ const mapDispatchToProps = {
 export default connect<IConnectedState, IConnectedActions>(
   mapStateToProps,
   mapDispatchToProps
-)(Counter);
+)(CounterPopulation);
