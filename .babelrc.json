@@ -9,7 +9,8 @@
           "@src": ["./src"],
           "@ducks": ["./src/ducks"],
           "@images": ["./src/assets/images"],
-          "@utils": ["./src/utils"]
+          "@utils": ["./src/utils"],
+          "@containers": ["./src/containers"]
         }
       }
     ]

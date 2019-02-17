@@ -5,7 +5,8 @@
       "@src/*": ["*"],
       "@ducks/*": ["ducks/*"],
       "@images/*": ["assets/images/*"],
-      "@utils/*": ["utils/*"]
+      "@utils/*": ["utils/*"],
+      "@containers/*": ["containers/*"]
     }
   }
 }
