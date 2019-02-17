@@ -10,7 +10,8 @@ Below are the things needed to be integrated before the first version can be usa
 - :heavy_check_mark: Redux integration with minimal boilerplate
 - :heavy_check_mark: While still using CRA allow custom eslint, tslint, and babel custom configs
 - :heavy_check_mark: Allow alias on both tsconfig and webpack
-- React router with default code splitting on each route
+- :heavy_check_mark: React router integration 
+- default code splitting on each route
 - Typescript templates for Functional, Class, Connected Components
 - Integrate pre-render pages on build
 - Add react helmet for seo 
@@ -18,7 +19,8 @@ Below are the things needed to be integrated before the first version can be usa
 - Default local tunnel via npm run script to test site on actual mobile device
 - Image optimizer via npm script
 - Handling async actions
-- Default navbar layout components for mobile device
+- Check issue on connected components typescript unrecognized props
+- Default navigation bar layout components for mobile device
 - Default login basic route
 - Default sticky footer
 - Documentation
