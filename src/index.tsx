@@ -1,6 +1,6 @@
+import SuperContainer from "@containers/superContainer/SuperContainer";
 import React from "react";
 import ReactDOM from "react-dom";
-import SuperContainer from "./containers/SuperContainer/SuperContainer";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 
