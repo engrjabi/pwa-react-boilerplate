@@ -26,6 +26,7 @@
   "scripts": {
     "start": "rescripts start",
     "build": "rescripts build",
+    "build:serve": "rescripts build && serve -s build",
     "test": "rescripts test",
     "eject": "rescripts eject",
     "lint:write": "tslint --fix \"./src/**/*.{ts,tsx}\""
@@ -45,6 +46,7 @@
   "devDependencies": {
     "@rescripts/cli": "0.0.10",
     "@rescripts/rescript-env": "0.0.5",
+    "serve": "^10.1.2",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.4.0",
